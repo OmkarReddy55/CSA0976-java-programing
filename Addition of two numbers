@@ -1,0 +1,14 @@
+import java.util.*;
+import java.io.*;
+class Add
+{
+    public static void main(String[] args){
+        System.out.println("Enter the two numbers :");
+        Scanner s=new Scanner(System.in);
+        float a=s.nextFloat();
+        float b=s.nextFloat();
+        float c=a+b;
+        //System.out.println("Sum of two numbers :"+a+"+"+b+"="+(a+b));
+        System.out.println("Sum of two numbers :"+c);
+    }
+}
